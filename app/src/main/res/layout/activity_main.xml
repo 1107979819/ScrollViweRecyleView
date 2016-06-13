@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<top.wenyl.scrollviwerecyleview.MyScrollview
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="xxxxxxxa"/>
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerview"/>
+
+
+    </LinearLayout>
+
+</top.wenyl.scrollviwerecyleview.MyScrollview>
